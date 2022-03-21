@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "name": "Wasim",
+      "gender": "Male",
+      "department": "IT",
+      "salary": "90",
+      "role": "Web Developer ",
+      "id": 1
+    },
+    {
+      "name": "Deepak",
+      "gender": "Male",
+      "department": "IT",
+      "salary": "99",
+      "role": "Web Develpoer ",
+      "id": 2
+    },
+    {
+      "name": "Dheeraj",
+      "gender": "Male",
+      "department": "IT",
+      "salary": "55",
+      "role": "Web develpoer ",
+      "id": 3
+    },
+    {
+      "name": "Neha",
+      "gender": "Female",
+      "department": "Marketing",
+      "salary": "60",
+      "role": "Sales",
+      "id": 4
+    },
+    {
+      "name": "Astha",
+      "gender": "Female",
+      "department": "Finance",
+      "salary": "80",
+      "role": "Accountant",
+      "id": 5
+    },
+    {
+      "name": "Fahim",
+      "gender": "Male",
+      "department": "HR",
+      "salary": "98",
+      "role": "Hr",
+      "id": 6
+    }
+  ]
+}

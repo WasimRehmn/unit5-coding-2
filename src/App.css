@@ -1,0 +1,14 @@
+.card {
+    border: 1px solid black;
+    /* margin-bottom: 10px; */
+    text-align: center;
+}
+.display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
