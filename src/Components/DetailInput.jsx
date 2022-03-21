@@ -12,13 +12,10 @@ const DetailInput = () => {
 
     const [data, setData] = useState([]);
     const [fdata, setFdata] = useState([]);
-    const [sdata, setSdata] = useState([]);
-    const [ddata, setDdata] = useState([]);
 
     useEffect(() => {
         getData();
     }, []);
-    // console.log(fdata);
     const getData = () => {
         axios.get("http://localhost:3002/posts").then((res) => {
             setData(res.data);
@@ -31,14 +28,15 @@ const DetailInput = () => {
         setFdata(updatedData);
     };
     const lowToHigh = () => {
-        const sortData = fdata.sort((a, b) => a.salary - b.salary);
-        setSdata(sortData);
+        const sortData = [...fdata];
+        sortData.sort((a, b) => a.salary - b.salary);
+        setFdata(sortData);
     };
     const highToLow = () => {
-        const sortData = fdata.sort((a, b) => b.salary - a.salary);
-        setDdata(sortData);
+        const sortData = [...fdata];
+        sortData.sort((a, b) => b.salary - a.salary);
+        setFdata(sortData);
     };
-    // console.log(sdata);
     return (
         <>
             <div>
